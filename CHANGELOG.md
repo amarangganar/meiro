@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Fixed
+
+- **Closing a full-screen window to the tray on macOS leaves the desktop.** The window used to stay as a black full-screen space. It now leaves full screen, hides, and comes back full screen the next time you open it.
+
 ## [0.4.10] - 2026-10-24
 
 ### Added
